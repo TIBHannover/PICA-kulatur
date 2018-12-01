@@ -30,9 +30,11 @@ csplit \
 	| sort
 
 # ermögliche Schnellprüfung der Aufteilungsanzeige gegen Ergebnisliste 
+echo "^ ^ ^ Größe der aufgesplitteten Dateien in Byte"
 echo "Je größer die Differenz zwischen den beiden hier drüber\
  letzten Zahlen ist, desto wahrscheinlicher ist eine zu hohe\
  Exemplaranzahl für die direkt hier drunter folgende PPN!"
+echo "v v v PPN:N_Exemplare"
 
 # entferne PICAs ƒ-Delimiter & andere 
 sed -Ei '' 's_ƒ._\ _g' _*
