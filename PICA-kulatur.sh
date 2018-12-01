@@ -38,10 +38,14 @@ echo "Je größer die Differenz zwischen den beiden hier drüber\
 sed -Ei '' 's_ƒ._\ _g' _*
 
 # pro PICA-Datei: extrahiere PPN, zähle Exemplare & schreibe in Ergebnisdatei
+# außer, wenn PPN nur 1 Exemplar hat
 ERG_D=PPN-Exemplare.txt
 for PICA_D in _*; do
-	PPN=$(grep -ioE "$TRENN_Z\d+X?" $PICA_D | sed -E "s/$TRENN_Z//g")
     EX_N=$(grep -cE "^208@/\d+" $PICA_D)
+	if [[ $EX_N == 1 ]]; then
+		continue
+	fi
+	PPN=$(grep -ioE "$TRENN_Z\d+X?" $PICA_D | sed -E "s/$TRENN_Z//g")
 	echo $PPN:$EX_N >> ../$ERG_D
 done
 
