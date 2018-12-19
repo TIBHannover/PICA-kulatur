@@ -39,12 +39,24 @@ echo "v v v PPN:N_Exemplare"
 # entferne PICAs ƒ-Delimiter & andere 
 sed -Ei '' 's_ƒ._\ _g' _*
 
-# pro PICA-Datei: extrahiere PPN, zähle Exemplare & schreibe in Ergebnisdatei
+# pro PICA-Datei...
+# ...löschen, falls schon als "makuliert", "vermisst", o.ä kommentiert
+# (Felder 480… & 237A/8…)
+# https://stackoverflow.com/a/4529141/4341322
+grep \
+	--files-with-matches \
+	--ignore-case \
+	--extended-regexp \
+	"^(480\d|237A/8\d)\s+(Vermi\w+|Makul\w+|Beilage)\s+" \
+	* | xargs rm
+
+# ...extrahiere PPN, zähle Exemplare & schreibe in Ergebnisdatei
 # außer, wenn PPN nur 1 Exemplar hat
 ERG_D=PPN-Exemplare.txt
 for PICA_D in _*; do
 	EX_N=$(grep -cE "^208@/\d+" $PICA_D)
 	if [[ $EX_N == 1 ]]; then
+		rm $PICA_D
 		continue
 	fi
 	PPN=$(grep -ioE "$TRENN_Z\d+X?" $PICA_D | sed -E "s/$TRENN_Z//g")
