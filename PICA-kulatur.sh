@@ -17,6 +17,7 @@ N_STELLEN=$(echo $N_TRENN | wc -c | sed -E 's/ //g')
 # arbeite im temporären Verzeichnis weiter
 ERG_D="PPN-Exemplare-$1"
 TMP="cache-PICA-Treffer"
+rm -rf $TMP $ERG_D
 mkdir $TMP
 cd $TMP
 
