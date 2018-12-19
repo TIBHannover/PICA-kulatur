@@ -53,8 +53,9 @@ grep \
 # ...extrahiere PPN, zähle Exemplare & schreibe in Ergebnisdatei
 # außer, wenn PPN nur 1 Exemplar hat
 ERG_D=PPN-Exemplare.txt
+# 208… & 700… sind Individualsignaturen des Exemplars
 for PICA_D in _*; do
-	EX_N=$(grep -cE "^208@/\d+" $PICA_D)
+	EX_N=$(grep -cE "^(208@/\d{2}|70\d{2})" $PICA_D)
 	if [[ $EX_N == 1 ]]; then
 		rm $PICA_D
 		continue
