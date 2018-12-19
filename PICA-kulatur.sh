@@ -85,4 +85,4 @@ sort \
 # zeige Ergebnisse
 cat $ERG_D
 
-zip -r $ZIP $TMP
+zip --quiet --recurse-paths $ZIP $TMP
