@@ -14,11 +14,13 @@ TRENN_Z='PPN: '
 N_TRENN=$(grep -ciE $TRENN_Z $1 | awk '{print $0-2}')
 N_STELLEN=$(echo $N_TRENN | wc -c | sed -E 's/ //g')
 
-# arbeite im temporären Verzeichnis weiter
+# definiere Dateinamen & lösche vorherige Versionen
 ERG_D="PPN-Exemplare-$1"
 TMP="cache-PICA-Treffer"
 ZIP=$1.zip
 rm -rf $TMP $ERG_D $ZIP
+
+# arbeite im temporären Verzeichnis weiter
 mkdir $TMP
 cd $TMP
 
@@ -37,7 +39,7 @@ echo "^ ^ ^ Größe der aufgesplitteten Dateien in Byte"
 echo "Je größer die Differenz der beiden letzten Zahlen\
  hier drüber, desto wahrscheinlicher ist eine zu hohe\
  Exemplaranzahl für die direkt hier drunter folgende PPN."
-echo "v v v PPN:N_Exemplare"
+echo "v v v PPN,N_Exemplare"
 
 # entferne PICAs ƒ-Delimiter
 sed -Ei '' 's_ƒ._\ _g' _*
@@ -66,7 +68,7 @@ for PICA_D in _*; do
 	
 	PPN=$(grep -ioE "$TRENN_Z\d+X?" $PICA_D | sed -E "s/$TRENN_Z//g")
 	mv $PICA_D "$PPN.txt"
-	echo $PPN:$EX_N >> ../$ERG_D
+	echo $PPN,$EX_N >> ../$ERG_D
 done
 
 cd ..
@@ -74,7 +76,7 @@ cd ..
 # sortiere Ergebnisdatei nach häufigsten Dubletten
 sort \
 	--key=2 \
-	--field-separator=: \
+	--field-separator=, \
 	--reverse \
 	--numeric-sort \
 	--output $ERG_D \
