@@ -35,9 +35,9 @@ csplit \
 	| sort
 
 # ermögliche Schnellprüfung der Aufteilungsanzeige gegen Ergebnisliste 
-echo "^ ^ ^ Größe der aufgesplitteten Dateien in Byte"
-echo "Je größer die Differenz der beiden letzten Zahlen\
- hier drüber, desto wahrscheinlicher ist eine zu hohe\
+echo "^ ^ ^ Größe (in Byte) der aufgesplitteten Dateien"
+echo " Je größer die Differenz der beiden letzten Zahlen\
+ hier drüber ist, desto wahrscheinlicher ist eine zu hohe\
  Exemplaranzahl für die direkt hier drunter folgende PPN."
 echo "v v v PPN,N_Exemplare"
 
