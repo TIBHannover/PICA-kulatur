@@ -67,7 +67,7 @@ for PICA_D in _*; do
 	fi
 	
 	PPN=$(grep -ioE "$TRENN_Z\d+X?" $PICA_D | sed -E "s/$TRENN_Z//g")
-	mv $PICA_D "$PPN.txt"
+	mv $PICA_D "$PPN-$EX_N.txt"
 	echo $PPN,$EX_N >> ../$ERG_D
 done
 
