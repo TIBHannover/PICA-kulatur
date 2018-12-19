@@ -15,7 +15,8 @@ N_TRENN=$(grep -ciE $TRENN_Z $1 | awk '{print $0-2}')
 N_STELLEN=$(echo $N_TRENN | wc -c | sed -E 's/ //g')
 
 # arbeite im temporären Verzeichnis weiter
-TMP="PICA_tmp"
+ERG_D="PPN-Exemplare-$1"
+TMP="cache-PICA-Treffer"
 mkdir $TMP
 cd $TMP
 
@@ -52,7 +53,6 @@ grep \
 
 # ...extrahiere PPN, zähle Exemplare & schreibe in Ergebnisdatei
 # außer, wenn PPN nur 1 Exemplar hat
-ERG_D=PPN-Exemplare.txt
 # 208… & 700… sind Individualsignaturen des Exemplars
 for PICA_D in _*; do
 	EX_N=$(grep -cE "^(208@/\d{2}|70\d{2})" $PICA_D)
@@ -61,6 +61,7 @@ for PICA_D in _*; do
 		continue
 	fi
 	PPN=$(grep -ioE "$TRENN_Z\d+X?" $PICA_D | sed -E "s/$TRENN_Z//g")
+	mv $PICA_D $PPN
 	echo $PPN:$EX_N >> ../$ERG_D
 done
 
