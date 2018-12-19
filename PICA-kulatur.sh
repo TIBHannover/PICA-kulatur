@@ -17,7 +17,8 @@ N_STELLEN=$(echo $N_TRENN | wc -c | sed -E 's/ //g')
 # arbeite im temporären Verzeichnis weiter
 ERG_D="PPN-Exemplare-$1"
 TMP="cache-PICA-Treffer"
-rm -rf $TMP $ERG_D
+ZIP=$1.zip
+rm -rf $TMP $ERG_D $ZIP
 mkdir $TMP
 cd $TMP
 
@@ -64,7 +65,7 @@ for PICA_D in _*; do
 	fi
 	
 	PPN=$(grep -ioE "$TRENN_Z\d+X?" $PICA_D | sed -E "s/$TRENN_Z//g")
-	mv $PICA_D $PPN
+	mv $PICA_D "$PPN.txt"
 	echo $PPN:$EX_N >> ../$ERG_D
 done
 
@@ -81,3 +82,5 @@ sort \
 
 # zeige Ergebnisse
 cat $ERG_D
+
+zip -r $ZIP $TMP
