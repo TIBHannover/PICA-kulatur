@@ -37,7 +37,7 @@ echo "Je größer die Differenz der beiden letzten Zahlen\
  Exemplaranzahl für die direkt hier drunter folgende PPN."
 echo "v v v PPN:N_Exemplare"
 
-# entferne PICAs ƒ-Delimiter & andere 
+# entferne PICAs ƒ-Delimiter
 sed -Ei '' 's_ƒ._\ _g' _*
 
 # pro PICA-Datei...
@@ -55,11 +55,13 @@ grep \
 # außer, wenn PPN nur 1 Exemplar hat
 # 208… & 700… sind Individualsignaturen des Exemplars
 for PICA_D in _*; do
+	
 	EX_N=$(grep -cE "^(208@/\d{2}|70\d{2})" $PICA_D)
 	if [[ $EX_N == 1 ]]; then
 		rm $PICA_D
 		continue
 	fi
+	
 	PPN=$(grep -ioE "$TRENN_Z\d+X?" $PICA_D | sed -E "s/$TRENN_Z//g")
 	mv $PICA_D $PPN
 	echo $PPN:$EX_N >> ../$ERG_D
