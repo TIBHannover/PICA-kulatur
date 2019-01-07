@@ -20,7 +20,7 @@ funktionieren. Also:
 1. Das Set mit dem `dow`-Befehl in die oben ermittelte Datei herunterladen.
 1. Jene Datei ins `PICA-kulatur`-Verzeichnis kopieren.
 1. Terminal oder Git Bash dort aufrufen.
-1. `./PICA-kulatur.sh ` und den Download-/Export-Dateinamen eintippen & `Enter` drücken.
+1. `./PICA-kulatur.sh download.txt` (bzw. den jeweiligen Dateinamen des Downloads/Exports) eintippen & mit die Enter-/Return-Taste drücken.
 
 ## Ausgabe
 
