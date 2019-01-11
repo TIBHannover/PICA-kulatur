@@ -16,7 +16,10 @@ N_STELLEN=$(echo $N_TRENN | wc -c | sed -E 's/ //g')
 
 # definiere Dateinamen & lösche vorherige Versionen
 ERG_D="PPN-Exemplare-$1"
+ERG_HEAD="PPN,N_Exemplare"
 TMP="cache-PICA-Treffer"
+TMP1="$ERG_D.tmp1"
+TMP2="$ERG_D.tmp2"
 ZIP=$1.zip
 rm -rf $TMP $ERG_D $ZIP
 
@@ -39,7 +42,7 @@ echo "^ ^ ^ Größe (in Byte) der aufgesplitteten Dateien"
 echo " Je größer die Differenz der beiden letzten Zahlen\
  hier drüber ist, desto wahrscheinlicher ist eine zu hohe\
  Exemplaranzahl für die direkt hier drunter folgende PPN."
-echo "v v v PPN,N_Exemplare"
+echo "v v v $ERG_HEAD"
 
 # entferne PICAs ƒ-Delimiter
 sed -Ei '' 's_ƒ._\ _g' _*
@@ -81,6 +84,12 @@ sort \
 	--numeric-sort \
 	--output $ERG_D \
 	$ERG_D
+
+# füge CSV-Header hinzu
+echo $ERG_HEAD > $TMP1
+cat $TMP1 $ERG_D > $TMP2
+rm $TMP1
+mv $TMP2 $ERG_D
 
 # zeige Ergebnisse
 cat $ERG_D
