@@ -45,7 +45,7 @@ echo " Je größer die Differenz der beiden letzten Zahlen\
 echo "v v v $ERG_HEAD"
 
 # entferne PICAs ƒ-Delimiter
-sed -Ei '' 's_ƒ._\ _g' _*
+sed -Ei '' 's|ƒ.| |g' _*
 
 # pro PICA-Datei...
 # ...löschen, falls schon als "makuliert", "vermisst", o.ä kommentiert
