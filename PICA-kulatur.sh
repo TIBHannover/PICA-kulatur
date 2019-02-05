@@ -93,5 +93,6 @@ mv $TMP2 $ERG_D
 
 # zeige Ergebnisse
 cat $ERG_D
+open $ERG_D
 
 zip --quiet --recurse-paths $ZIP $TMP
