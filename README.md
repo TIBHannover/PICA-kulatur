@@ -2,6 +2,8 @@
 
 Aus WinIBW-Downloads von PICA-Daten mehrfach vorhandene Exemplare herausfiltern (z.B. zur Makulatur alter Dubletten).
 
+![](PICA-kulatur.gif)
+
 ## Installation
 
 Dieses Bash-Skript wurde bisher im Terminal von macOS 10.13.6 getestet.
@@ -26,7 +28,7 @@ funktionieren. Also:
 
 Die vermutlich mehrfach vorhanden Exemplare sind nach PPN aufgelistet in:
 
-- `PPN-Exemplare...txt` mit der gezählten Anzahl.
+- `cache-.../PPN-Exemplare.txt` mit der gezählten Anzahl.
 - `...zip` Kopien der gefundenen PICA-Records.
 
 Bitte prüfen, ob sie wirklich makuliert werden können.

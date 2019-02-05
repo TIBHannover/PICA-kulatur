@@ -37,7 +37,7 @@ csplit \
 	{$N_TRENN} \
 	| sort
 
-# ermögliche Schnellprüfung der Aufteilungsanzeige gegen Ergebnisliste 
+# ermögliche Schnellprüfung der Aufteilungsanzeige gegen Ergebnisliste
 echo "^ ^ ^ Größe (in Byte) der aufgesplitteten Dateien"
 echo " Je größer die Differenz der beiden letzten Zahlen\
  hier drüber ist, desto wahrscheinlicher ist eine zu hohe\
