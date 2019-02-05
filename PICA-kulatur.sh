@@ -38,7 +38,7 @@ csplit \
 	| sort
 
 # ermögliche Schnellprüfung der Aufteilungsanzeige gegen Ergebnisliste
-echo "^ ^ ^ Größe (in Byte) der aufgesplitteten Dateien"
+echo "^ ^ ^ Größe (in Byte) der in Einzel-PICA-Datensätze aufgesplitteten $1"
 echo " Je größer die Differenz der beiden letzten Zahlen\
  hier drüber ist, desto wahrscheinlicher ist eine zu hohe\
  Exemplaranzahl für die direkt hier drunter folgende PPN."
