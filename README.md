@@ -4,6 +4,7 @@ Aus WinIBW-Downloads von PICA-Daten mehrfach vorhandene Exemplare herausfiltern 
 
 ![](PICA-kulatur.gif)
 
+
 ## Installation
 
 Dieses Bash-Skript wurde bisher im Terminal von macOS 10.13.6 getestet.
@@ -12,7 +13,8 @@ funktionieren. Also:
 
 1. Im Terminal oder in der Git Bash `git clone https://github.com/katrinleinweber/PICA-kulatur` ausführen.
 1. Mit `cd PICA-kulatur` in ebenjenes neues Verzeichnis wechseln.
-    a) unter macOS: Mit `chmod +x PICA-kulatur.sh` die Datei ausführbar machen.
+    - unter macOS: das Skript mit `chmod +x PICA-kulatur.sh` ausführbar machen.
+
 
 ## Benutzung
 
@@ -23,6 +25,7 @@ funktionieren. Also:
 1. Jene Datei ins `PICA-kulatur`-Verzeichnis kopieren.
 1. Terminal oder Git Bash dort aufrufen.
 1. `./PICA-kulatur.sh download.txt` (bzw. den jeweiligen Dateinamen des Downloads/Exports) eintippen & mit der Enter-/Return-Taste bestätigen.
+
 
 ## Ausgabe
 
