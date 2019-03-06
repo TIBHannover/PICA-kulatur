@@ -1,6 +1,6 @@
 # PICA-kulatur
 
-Aus WinIBW-Downloads von PICA-Daten mehrfach vorhandene Exemplare herausfiltern (z.B. zur Makulatur alter Dubletten).
+Aus WinIBW-Downloads von PICA-Daten mehrfach vorhandene Exemplare herausfiltern (z.B. zur Makulatur alter, physikalischer Dubletten).
 
 ![](PICA-kulatur.gif)
 
@@ -32,4 +32,3 @@ Die vermutlich mehrfach vorhanden Exemplare sind nach PPN aufgelistet in:
 - `...zip` Kopien der gefundenen PICA-Records.
 
 Bitte prüfen, ob sie wirklich makuliert werden können.
-
