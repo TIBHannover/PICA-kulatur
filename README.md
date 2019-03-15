@@ -7,13 +7,15 @@ Aus WinIBW-Downloads von PICA-Daten mehrfach vorhandene Exemplare herausfiltern 
 
 ## Installation
 
-Dieses Bash-Skript wurde bisher im Terminal von macOS 10.13.6 getestet.
-Es sollte allerdings auch in der [Git Bash für Windows](https://github.com/git-for-windows/git/releases/download/v2.19.2.windows.1/Git-2.19.2-64-bit.exe)
-funktionieren. Also:
+Dieses Bash-Skript wurde bisher im Terminal von macOS 10.13.6 mit der
+[Z Shell](https://de.wikipedia.org/wiki/Z_shell) (v5.7.1) getestet.
+In der regulären Bash oder der Git Bash für Windows funktioniert es leider
+momentan nicht (siehe [#5](https://github.com/TIBHannover/PICA-kulatur/issues/5)). Daher:
 
-1. Im Terminal oder in der Git Bash `git clone https://github.com/katrinleinweber/PICA-kulatur` ausführen.
+1. macOS-Terminal in seinen Optionen auf `/bin/zsh` umstellen und neu starten.
+1. `git clone https://github.com/katrinleinweber/PICA-kulatur` ausführen.
 1. Mit `cd PICA-kulatur` in ebenjenes neues Verzeichnis wechseln.
-    - unter macOS: das Skript mit `chmod +x PICA-kulatur.sh` ausführbar machen.
+1. Das Skript mit `chmod +x PICA-kulatur.sh` ausführbar machen.
 
 
 ## Benutzung
@@ -23,7 +25,7 @@ funktionieren. Also:
 1. In WinIBW das "Set" angelegen, das nach mehrfach vorhandenen Exemplaren durchsucht werden soll.
 1. Das Set mit dem `dow`-Befehl in die oben ermittelte Datei herunterladen.
 1. Jene Datei ins `PICA-kulatur`-Verzeichnis kopieren.
-1. Terminal oder Git Bash dort aufrufen.
+1. Terminal dort aufrufen.
 1. `./PICA-kulatur.sh download.txt` (bzw. den jeweiligen Dateinamen des Downloads/Exports) eintippen & mit der Enter-/Return-Taste bestätigen.
 
 
