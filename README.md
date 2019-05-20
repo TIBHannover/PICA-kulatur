@@ -39,9 +39,9 @@ demonstriert die Nutzung. Sie enthält folgende Datensätze:
 
 ## Ausgabe
 
-Die vermutlich mehrfach vorhanden Exemplare sind nach PPN aufgelistet in:
+Die vermutlich mehrfach vorhanden Exemplare werden:
 
-- `cache-.../PPN-Exemplare.txt` mit der gezählten Anzahl.
-- `...zip` Kopien der gefundenen PICA-Records.
+- nach PPN aufgelistet in `EVTL-makulierbar/...txt` mit der gezählten Anzahl, sowie
+- in einer Zeit-gestempelten `...zip`-Datei gesichert.
 
 Bitte prüfen, ob sie wirklich makuliert werden können.

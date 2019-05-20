@@ -15,13 +15,14 @@ N_TRENN=$(grep -ciE $TRENN_Z $1 | awk '{print $0-2}')
 N_STELLEN=$(echo $N_TRENN | wc -c | sed -E 's/ //g')
 
 # definiere Dateinamen & lösche vorherige Versionen
+ERG="EVTL-makulierbar"
 ERG_D="PPN-Exemplare-$1"
 ERG_HEAD="PPN,N_Exemplare"
 TMP="cache-PICA-Treffer"
 TMP1="$ERG_D.tmp1"
 TMP2="$ERG_D.tmp2"
-ZIP=$1.zip
-rm -rf $TMP $ERG_D $ZIP
+ZIP=$1-$ERG-$(date -u +"%Y%m%d-%H%M").zip
+rm -rf $TMP $ERG $ERG_D
 
 # arbeite im temporären Verzeichnis weiter
 mkdir $TMP
@@ -101,4 +102,5 @@ sort \
 echo "
 Mit 'open"$ERG_D"' kann können diese Ergebnisse auch im Texteditor geöffnet werden."
 
-zip --quiet --recurse-paths $ZIP $TMP
+mv $TMP $ERG
+zip --quiet --recurse-paths "$ZIP" "$ERG"
