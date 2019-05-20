@@ -92,7 +92,13 @@ rm $TMP1
 mv $TMP2 $ERG_D
 
 # zeige Ergebnisse
-cat $ERG_D
-open $ERG_D
+sort \
+	--key=2 \
+	--field-separator=, \
+	--numeric-sort \
+	$ERG_D
+
+echo "
+Mit 'open"$ERG_D"' kann können diese Ergebnisse auch im Texteditor geöffnet werden."
 
 zip --quiet --recurse-paths $ZIP $TMP
