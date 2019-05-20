@@ -26,7 +26,15 @@ momentan nicht (siehe [#5](https://github.com/TIBHannover/PICA-kulatur/issues/5)
 1. Das Set mit dem `dow`-Befehl in die oben ermittelte Datei herunterladen.
 1. Jene Datei ins `PICA-kulatur`-Verzeichnis kopieren.
 1. Terminal dort aufrufen.
-1. `./PICA-kulatur.sh download.txt` (bzw. den jeweiligen Dateinamen des Downloads/Exports) eintippen & mit der Enter-/Return-Taste bestätigen.
+1. `./PICA-kulatur.sh download-test.txt` (bzw. den jeweiligen Dateinamen des Downloads/Exports) eintippen & mit der Enter-/Return-Taste bestätigen.
+
+Die in diese Repository [beigelegte Test-Datei](./download-text.txt)
+demonstriert die Nutzung. Sie enthält folgende Datensätze:
+
+- PPN `01848350X` mit 12 Exemplaren,
+- `1013878469` mit zweien,
+- `130994197` mit einem, sowie
+- `59975818X` mit mehreren, allerdings schon makulierten Exemplaren.
 
 
 ## Ausgabe

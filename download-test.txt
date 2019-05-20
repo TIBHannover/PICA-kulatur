@@ -1,0 +1,336 @@
+SET: S1 [4] TTL: 1      PPN: 01848350X                            SEITE1 .
+
+Eingabe: 2000:12-06-92 Änderung: 1999:07-05-18 12:49:36 Status: 9999:99-99-99
+0000 20-24,31-32,39-40,60,62,65,69-70,100,110,120,131-132,140,147,151-152,161,164,213,285
+000A 0
+000K utf8
+0100 01848350X
+0200 2000:12-06-92
+0210 1999:07-05-18; 12:49:36.000
+0230 9999:99-99-99
+0500 Aau
+1100 1992
+1500 ger
+1700 XA-DE ; XA-AT ; XA-CH
+2000 3-411-15381-4
+2065 911454470
+2097 #OCoLC#29579382$v2012-12-31
+2112 ZBM: 0925.00004
+2240 GBV: 01848350X
+3000 Cigler, Johann!608618896!Cigler, Johann *1937-* ; ID: gnd/139154604
+4000 Grundideen der Mathematik$hvon Johann Cigler
+4030 Mannheim [u.a.]$nBI-Wiss.-Verl.
+4060 IX, 268 S.
+4061 graph. Darst.
+4062 24 cm
+4099 $S1$yInhaltsverzeichnis$0pdf$ahttp://www.gbv.de/dms/hbz/toc/ht004013846.pdf$mDE-605$nDE-605$qpdf/application$x2008-11-15$304$Ahbz$B2
+4099 $ahttp://d-nb.info/911454470/04$mDE-605$qapplication/pdf$v20130501$304$52$ADNB$B2
+4099 $S1$yZentralblatt MATH$0cgi$ahttp://zbmath.org/?q=an:0925.00004$mDE-601$nZBM$qpdf/application$v2016-04-14$301$AGBV$B1
+4170 Mathematische Texte$l5
+4180 #500#!130936200!Mathematische Texte : Studienbücher zur Lehrerausbildung und zum Studium von Anwendungsgebieten der Mathematik. - Mannheim : BI Wissenschaftsverl, 1991 ; ZDB-ID: 10584614$l5
+4201 Literaturverz. S. 263 - 266
+5050 27
+5058 mat
+5060 [MSC] *00A05$AZBL
+5100 |s|!106234803!Mathematik ; ID: gnd/4037944-9
+5101 |s|!105493384!Grundlage ; ID: gnd/4158388-7
+5102 |s|!105653152!Nonstandard-Analysis ; ID: gnd/4137021-1
+5108 <312>
+5110 |s|!105797235!Zahlensystem ; ID: gnd/4117700-9
+5301 !106415808!31.00$jMathematik: Allgemeines
+6310 [9] SK 180
+6310 [8] M 0010
+0247 utf8
+4900 12-08-94
+4901 28-05-09; add_msc/1999
+4903 28-05-09 02:19:39.000
+6000 mat 1
+7001 12-08-94 : z
+0248 utf8
+7100 89/15#!FBE Semesterapparat Gawlick!RO 9869(5) @ i
+7109 RO 9869(5) @ u
+7901 01-07-13; 2990/0089
+7903 01-07-13 13:47:12.000
+8200 89$111871093
+7900 12-08-94
+7800 130962759
+7002 03-03-08 : z
+0248 utf8
+7100 !L mat 1!RO 9869(5) a @ b
+7901 03-03-08; 2711/0089
+7903 03-03-08 14:27:38.000
+8200 89$131532588
+7800 862582652
+7003 03-03-08 : z
+0248 utf8
+7100 !L mat 1!RO 9869(5) b @ b
+7901 03-03-08; 2711/0089
+7903 03-03-08 14:27:59.000
+8200 89$131532596
+7800 86258275X
+7004 03-03-08 : z
+0248 utf8
+7100 !L mat 1!RO 9869(5) c @ b
+7901 03-03-08; 2711/0089
+7903 03-03-08 14:28:15.000
+8200 89$13153257X
+7800 862582857
+7040 18-10-07 : zce
+0248 utf8
+7100 89/15#!FBE pae 624!E 07 B 452 @ i
+7901 19-10-07; 3286/0089
+7903 19-10-07 10:11:31.000
+8200 89$130002666
+7800 840464533
+7041 18-10-07 : zce
+0248 utf8
+7100 89/15#!FBE pae 624!E 07 B 452 a @ u
+7901 19-10-07; 3286/0089
+7903 19-10-07 10:12:55.000
+8200 89$130002690
+7800 84057990X
+7042 18-10-07 : zce
+0248 utf8
+7100 89/15#!FBE pae 624!E 07 B 452 b @ u
+7901 19-10-07; 3286/0089
+7903 19-10-07 10:13:31.000
+8200 89$130002720
+7800 840580150
+7043 18-10-07 : zce
+0248 utf8
+7100 89/15#!FBE pae 624!E 07 B 452 c @ u
+7901 19-10-07; 3286/0089
+7903 19-10-07 10:14:25.000
+8200 89$130002755
+7800 840580428
+7044 18-10-07 : zce
+0248 utf8
+7100 89/15#!FBE pae 624!E 07 B 452 d @ u
+7901 19-10-07; 3286/0089
+7903 19-10-07 10:14:59.000
+8200 89$13000278X
+7800 840580649
+7045 18-10-07 : zce
+0248 utf8
+7100 89/15#!FBE pae 624!E 07 B 452 e @ u
+7901 19-10-07; 3286/0089
+7903 19-10-07 10:15:37.000
+8200 89$13000281X
+7800 840580959
+7046 18-10-07 : zce
+0248 utf8
+7100 89/15#!FBE pae 624!E 07 B 452 f @ u
+7901 19-10-07; 3286/0089
+7903 19-10-07 10:16:28.000
+8200 89$130002844
+7800 840581270
+7047 18-10-07 : zce
+0248 utf8
+7100 89/15#!FBE pae 624!E 07 B 452 g @ u
+7901 19-10-07; 3286/0089
+7903 19-10-07 10:16:57.000
+8200 89$130002879
+7800 840581424
+
+SET: S1 [4] TTL: 4        PPN: 1013878469                           SEITE1 .
+
+Eingabe: 3095:14-02-18 Änderung: 0028:28-09-18 13:46:16 Status: 0959:16-03-18
+0000 20-21,30,34,62,70,95,132,152,164,185,227,274,281
+000A 0
+000K utf8
+0100 1013878469
+0200 3095:14-02-18
+0210 0028:28-09-18; 13:46:16.000
+0230 0959:16-03-18
+0500 Aau
+0501 Text$btxt
+0502 ohne Hilfsmittel zu benutzen$bn
+0503 Band$bnc
+1100 2018$n[2018]
+1108 $n© 2018
+1131 !104270187!Lehrbuch ; ID: gnd/4123623-3
+1131 !105605913!Aufgabensammlung ; ID: gnd/4143389-0
+1500 ger
+1505 $erda
+1700 XA-DE-BY
+2000 =978-3-446-45163-6$f : EUR 14,00 (DE)
+2003 |o|=978-3-446-45620-4$fe-Book
+2097 #OCoLC#1028980246
+2240 GBV: 1013878469
+3000 Sachs, Michael!50759004X!Sachs, Michael ; ID: gnd/131338617$BVerfasserIn$4aut
+4000 Wahrscheinlichkeitsrechnung und Statistik$dfür Ingenieurstudierende an Hochschulen : mit 35 Bildern, 93 Beispielen und 71 Aufgaben$hvon Prof. Dr. Michael Sachs
+4020 5. Auflage
+4030 München$nFachbuchverlag Leipzig im Carl Hanser Verlag
+4060 196 Seiten
+4061 Diagramme
+4062 21 cm
+4099 $S1$yInhaltsverzeichnis$0pdf$ahttp://www.gbv.de/dms/tib-ub-hannover/1013878469.pdf$mDE-601$nDE-89$qapplication/pdf$v2018-08-29$304$AGBV$B2
+4170 Mathematik-Studienhilfen
+4201 "Für die 5. Auflage wurden Druckfehler korrigiert, Zeichnungen verschönert und Beispiele sowie das Literaturverzeichnis aktualisiert." - Vorwort
+4201 Literaturverzeichnis: Seite [193]
+4243 Erscheint auch als$nOnline-Ausgabe$lSachs, Michael$tWahrscheinlichkeitsrechnung und Statistik$dMünchen$eCarl Hanser Verlag$f2018$h1 Online-Ressource (196 Seiten) : Illustrationen, Diagramme$CGBV$61017730350
+5010 [23sdnb] 510 ; 620
+5010 [22/ger] 519.5$ADE-101
+5010 [23sdnb] 510$ADE-101
+5051 510 ; 620$ADNB
+5058 mat
+5060 [MSC] *00A06$AZBL
+5060 [MSC] 00A35$AZBL
+5060 [MSC] 60-01$AZBL
+5060 [MSC] 62-01$AZBL
+5090 SK 800$ABVB
+5100 !106124307!Wahrscheinlichkeitsrechnung ; ID: gnd/4064324-4
+5109 $ADE-101
+5110 !106152955!Statistik ; ID: gnd/4056995-0
+5119 $ADE-101
+5301 !106408070!31.70$jWahrscheinlichkeitsrechnung
+5302 !106418998!31.73$jMathematische Statistik
+7001 25-04-18 : z
+0248 utf8
+4801 Erworben aus Studienqualitätsmitteln
+7100 !L mat 645!U 18 B 394 @ u
+7901 25-04-18; 2707/0089
+7903 25-04-18 16:03:58.000
+8200 89$137039859
+7800 1760158763
+7002 25-04-18 : z
+0248 utf8
+4801 Erworben aus Studienqualitätsmitteln
+7100 !L mat 645!U 18 B 394 a @ u
+7901 25-04-18; 2707/0089
+7903 25-04-18 16:18:24.000
+8200 89$137039867
+7800 1767105525
+
+
+SET: S1 [4] TTL: 3      PPN: 130994197                            SEITE1 .
+
+Eingabe: 2004:18-11-93 Änderung: 1999:08-11-18 02:20:32 Status: 2004:11-09-97
+0000 11,20,24,37,40,62,70,90,103,126,178,236,307,310,314 ; 7
+000A 0
+000K utf8
+0100 130994197
+0200 2004:18-11-93
+0210 1999:08-11-18; 02:20:32.000
+0230 2004:11-09-97
+0500 Abv
+0501 Text$btxt
+0502 ohne Hilfsmittel zu benutzen$bn
+0503 Band$bnc
+1100 1991$n1991-
+1131 !10454466X!Zeitschrift ; ID: gnd/4067488-5
+1500 eng
+1700 XD-US
+1800 z
+2010 0925-1022
+2065 016128982
+2097 #OCoLC#474093860$v2012-12-31
+2110 1082042-5
+2113 OCoLC: 474093860
+2185 02084244
+2200 DCCREC
+2240 ZDB: 10820425
+4000 Designs, codes and cryptography$dan international journal
+4024 $v1$b1991$6
+4025 1.1991 -
+4030 Boston, Mass. [u.a.]$nKluwer$h1991-
+4243 Online-Ausg$tDesigns, codes and cryptography$dDordrecht [u.a.]$eSpringer Science + Business Media B.V$f1991-$hOnline-Ressource$CZDB$61479896-7$CDNB$6019728573
+5010 [22] 005.82$AOCLC
+5051 004$ADE-600
+5056 17,1
+5057 mat
+5058 mat
+5100 !106257862!Kryptologie ; ID: gnd/4033329-2
+5101 |f|Zeitschrift
+5109 $ADE-600
+5301 !106418963!31.12$jKombinatorik$jGraphentheorie
+5302 !106408453!31.20$jAlgebra: Allgemeines
+5303 !106403265!54.62$jDatenstrukturen
+0247 utf8
+2080 ZO 7957
+4903 13-05-96 09:58:59.567
+6000 770/3150
+7001 22-09-94 : b
+0248 utf8
+7100 !L mat Z 734.2!ZO 7957 [Haus2] @ f
+7120 $v1$b1991$6
+7901 01-11-10; 2835/0089
+7903 01-11-10 16:13:38.000
+8519 z
+7800 139665986
+
+
+SET: S1 [4] TTL: 4       PPN: 59975818X                            SEITE1 .
+
+Eingabe: 3095:14-05-09 Änderung: 1999:22-11-18 20:04:54 Status: 3095:14-05-09
+0000 11,20-21,26,30-32,34,39,60,65,69-70,95,105,110,120,130,132,136,152,164,185,230,285,370
+000A 0
+000K utf8
+0100 59975818X
+0200 3095:14-05-09
+0210 1999:22-11-18; 20:04:54.000
+0230 3095:14-05-09
+0500 Aau
+1100 2009$nc 2009
+1110 l5
+1131 !104270187!Lehrbuch ; ID: gnd/4123623-3
+1500 ger
+1700 XA-DE-BY
+2000 =978-3-486-59088-3
+2097 #OCoLC#391521121$v2012-12-31
+2240 GBV: 59975818X
+3000 Bamberg, Günter!569721245!Bamberg, Günter *1940-* ; ID: gnd/135677890
+3001 Baur, Franz!660874377!Baur, Franz *1945-* ; ID: gnd/101190652X
+3002 Krapp, Michael!56972130X!Krapp, Michael *1971-* ; ID: gnd/135678005
+4000 Statistik$hvon Günter Bamberg; Franz Baur und Michael Krapp
+4020 15., überarb. Aufl.
+4030 München$nOldenbourg
+4060 X, 322 S.
+4061 graph. Darst.
+4062 24 cm
+4099 $S1$yInhaltsverzeichnis$0pdf$ahttp://www.gbv.de/dms/bs/toc/59975818X.pdf$mDE-601$nDE-84$qpdf/application$304$AGBV$B2
+4099 $ahttp://d-nb.info/994009917/04$nDE-101$qapplication/pdf$v20130501$304$52$ADNB$B2
+4099 $ahttp://deposit.d-nb.de/cgi-bin/dokserv?id=3293729&prov=M&dok_var=1&dok_ext=htm$nVerlag: MVB$qtext/html$v20130501$301$52$ADNB$B2
+4170 Oldenbourgs Lehr- und Handbücher der Wirtschafts- und Sozialwissenschaften
+4201 Literaturverz. S. [293] - 304
+5010 519.50243$ABSZ
+5051 510 ; 300
+5055 00
+5090 QH 231
+5090 QH 231
+5090 QH 231$ABVB
+5100 |s|!106152955!Statistik ; ID: gnd/4056995-0
+5200 !09139211X!Statistische Methodenlehre ; STW-ID: stw19581-1
+5200 !091394902!Theorie ; STW-ID: stw19073-6
+5249 $b60$cBuch$dBook
+5249 $b28$cLehrbuch$dTextbook
+5301 !106418998!31.73$jMathematische Statistik
+5400 [DDC22ger] 519.50243-G--519.5-H--300-T1--024$ADDB
+6310 [9] QH 231
+0247 utf8
+4901 20-12-10; 3385/0089
+4903 20-12-10 08:36:46.000
+6050 oek 481
+7001 25-08-09 : z
+0248 utf8
+7100 !L mat 660!U 09 B 1151 @ b
+7901 03-09-09; 2795/0089
+7903 03-09-09 11:14:42.000
+8200 89$132064669
+7800 939977451
+7070 20-12-10 : dcw
+0248 utf8
+4801 Makuliert - nicht mehr vorhanden
+7100 89/18#!FBW!L oek 481/032(15) @ z
+7901 19-09-17; 3313/0089
+7903 19-09-17 15:17:36.000
+8100 FBW 2010-1990 (31187)
+7800 1196269653
+7071 20-12-10 : dcw
+0248 utf8
+4801 Makuliert - nicht mehr vorhanden!
+7100 89/18#$9$!FBW!L oek 481/032(15) (a-i) @ z
+7901 20-03-13; 3385/0089
+7903 20-03-13 07:59:07.000
+8100 FBW 2010-1990a-i (21277)
+7800 1212425308
