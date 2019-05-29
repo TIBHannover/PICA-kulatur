@@ -1,0 +1,11 @@
+# See https://pre-commit.com/hooks.html for more hooks
+repos:
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v2.2.3
+    hooks:
+    -   id: trailing-whitespace
+-   repo: https://github.com/jumanjihouse/pre-commit-hooks
+    rev: 1.11.0
+    hooks:
+    -   id: script-must-not-have-extension
+    -   id: shellcheck
