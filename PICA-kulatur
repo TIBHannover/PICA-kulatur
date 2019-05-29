@@ -101,7 +101,7 @@ sort \
 	"$ERG_D"
 
 echo "
-Mit 'open \"$ERG_D\"' kann können diese Ergebnisse auch im Texteditor geöffnet werden."
+Mit 'open $ERG_D' kann können diese Ergebnisse auch im Texteditor geöffnet werden."
 
 mv "$TMP" "$ERG"
 zip --quiet --recurse-paths "$ZIP" "$ERG"
